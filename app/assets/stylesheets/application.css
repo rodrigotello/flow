@@ -11,7 +11,3 @@
  *= require_self
  *= require_tree .
  */
-
-.btn-rosaranja {
-	background: $rosaranja;
-}
