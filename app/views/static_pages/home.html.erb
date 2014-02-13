@@ -1,10 +1,7 @@
 <% provide(:title, 'Flow') %>
-<link href='http://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'>
 
 </div>
-
 <div class="armata">
-
 <div id="mainbanner">
 	<div id="flowbg">
 		<%= image_tag 'flowlogo.png' %>
@@ -14,169 +11,66 @@
 			</p>
 		</div>
 		<p>
-		<strong>Termina tu proyecto creativo en 10 horas.</strong>
+		<strong>Ven y termina tu proyecto creativo en 10 horas.</strong>
 		</p>
 		<p>
-		<div class="container">
-			<div class="row-fluid">
-				<%= link_to '¡Genial! Quiero ir', 'http://flow.boletia.com', target: "_blank", class: 'btn btn-large btn-info' %>
+			<div id="translucentbanner">
+				Próximo Evento: 3 de marzo - Monterrey, NL
 			</div>
-		</div>
+		</p>
+		<p>
+			<div class="container">
+				<div class="row-fluid">
+					<% link_to '¡Genial! Quiero ir', 'http://flow.boletia.com', target: "_blank", class: 'btn btn-large' %>
+					<!-- Begin MailChimp Signup Form -->
+							<div class="offset3 span6">
+								<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+								<style type="text/css">
+									#mc_embed_signup{background:transparent; clear:left; font:14px 'Armata', Helvetica,Arial,sans-serif; }
+									/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+									   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+								</style>
+								<div id="mc_embed_signup">
+									<form action="http://rodrigotello.us7.list-manage.com/subscribe/post?u=5bde610d99628e23dfe04cf14&amp;id=cd3f5b2b2c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>					
+										<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Si quieres saber más, deja tu correo" required>
+									    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+									    <div style="position: absolute; left: -5000px;">
+									    	<input type="text" name="b_5bde610d99628e23dfe04cf14_cd3f5b2b2c" value="">
+									    </div>
+										<div class="clear">
+											<input type="submit" value="Informarme cuando esté listo" name="subscribe" id="mc-embedded-subscribe" class="btn btn-large btn-important">
+										</div>
+									</form>
+								</div>
+							</div>
+
+					<!--End mc_embed_signup-->
+				</div>
+			</div>
+		</p>
 	</div>
 </div>
-
-<!--div class = 'container'>
-	<div class= "row-fluid">
-		<div class = 'span4'>
-			<%#= link_to image_tag('prensa.png'), "http://blog.funkalab.com/private/35591683438/tumblr_mdebqcExxr1rdn40i", target: 'blank', class: ''  %>
-		</div>
-		<div class = 'span2 offset1'>
-			<div class="fb-like pull-right" data-href="https://www.facebook.com/funkalab" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
-
-		</div>
-		<div class = ''>
-			<a href="https://twitter.com/funkalab" class="twitter-follow-button" data-show-count="false" data-lang="es" data-show-screen-name="false">Seguir a @funkalab</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-		</div>
-	</div>
-</div!-->
-
 <div class="container">
 	<div id="que">
 		<div class="row-fluid">
-			<div class="span4">
-				<h1>¿Qué es FLOW?</h1>
-				<br/>
+			<div class="span12">
 				<br/>
 				<p>
-					<h4>Es un un <strong>evento</strong> de un día dedicado a terminar tus proyectos personales junto a la <strong>comunidad de creativos</strong> en <i>Monterrey</i>: un cuento, una animación, un cómic, un cortometraje, un mix, un póster, tu portafolio, lo que sea.</h4>
+					 <center>
+					 	<h2>FLOW es un un <strong>evento</strong> de un día dedicado a terminar tus proyectos personales junto a la <strong>comunidad de creativos</strong> en <i>Monterrey</i>: una animación, un cuento, un cómic, un cortometraje, un mix, un póster, tu portafolio, lo que sea.</h2>
+					</center>
 				</p>
-				<br/>
-				</p>
-					<h4>
-					Ese día tendrás 12 horas para trabajar en tu proyecto, conocer a gente nueva con pasiones creativas y aprender nuevas habilidades con talleres prácticos.
-					</h4>
-				</p>
-			</div>
-
-			<div class="span8">
-				<%= image_tag 'makersgif.gif' %>
-			</div>
-
-		</div>
-	</div>
-</div>
-
-<div id="porque">
-	<div class="container">
-		<div class="row-fluid">
-			<p>
-				<u>FLOW</u> <i>es un día para juntar a la escena de creadores en Monterrey, para compartir ideas y empezar a generar comunidad.</i>
-			</p>
-		</div>
-	</div>
-
-</div>
-
-<div class=" subtledots">
-	<div id="actividades">
-			<div class="align-center">
-				<div class="title">
-					<h1>Actividades</h1>
-					<br/>
-					<br/>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row-fluid">
-					<div class="span4">
-						<%= image_tag 'actividadestaller.png' %>
-						<br/>
-						<br/>
-						<h1>Mini-Talleres</h1>
-						<p>
-						 <h3>Aprende una habilidad específica de alguien que sabe.</h3>
-						</p>
-					</div>
-					<div class="span4">
-						<%= image_tag 'actividadesmano.png' %>
-						<br/>
-						<br/>
-						<h1>"Making" Time</h1>
-						<p>
-						 <h3>Lo mas importante es sentarse y terminar tu proyecto.</h3>
-						</p>
-					</div>
-					<div class="span4">
-						<%= image_tag 'actividadesfoco.png' %>
-						<br/>
-						<br/>
-						<h1>Speedtalks</h1>
-						<p>
-						 <h3>Rápidamente, todos presentan su idea y los avances al final del día. </h3>
-						</p>
-					</div>
-				</div>
-			</div>
-	</div>
-</div>
-
-<div id="talleres">
-	<div class="container">
-		<div class="row">
-			<div class="title">
-				<h1>Mini-Talleres</h1>
-			</div>
-			<br/>
-			<br/>
-			<div class="span4">
-				<%= image_tag 'ilustracion.jpg' %>
-				<br/>
-				<br/>
-				<h3>Ilustración Digital </h3>
-				<p>Próximamente más información.</p>
-			</div>
-			<div class="span4">
-				<%= image_tag 'arduino.jpg' %>
-				<br/>
-				<br/>
-				<h3>Speed Arduino </h3>
-				<p>Próximamente más información.</p>
-			</div>
-			<div class="span4">
-				<%= image_tag 'musica.jpg' %>
-				<br/>
-				<br/>
-				<h3>Música <i>Experimental</i> </h3>
-				<p>Próximamente más información.</p>
 			</div>
 		</div>
 	</div>
 </div>
-
 <div id="ejemplos">
 	<div class="container">
 		<div class="row-fluid">
 			<div class="bigtypo">
-			  ¿Qué puedo hacer?
+			  ¿Qué demonios puedo hacer en 10 horas?
 			</div>
 			<br/>
-				<!--
-				<div class="scrollbox">
-				  <div class="heading-scroll">
-				    <div class="content">
-				      <div class="headings">
-				        <h1 id="first">Haz una <span>tipografía</span> para la ciudad.</h1>
-				        <h1 id="second">Aprende a usar tornamesas y <span>mezcla</span></h1>
-				        <h1 id="third">Empieza tu blog de <span>fotografía</span></h1>
-				        <h1 id="fourth">Pon en línea tu <span>portafolio de diseño</span></h1>
-				        <h1 id="fifth">Colabora en otros <span>creadores</span></h1>
-				      </div>
-				    </div>
-				  </div>
-				</div>
-				-->
-
 					<div class="idea" id="idea-1">
 	    				
 	    				<h1>Haz una tipografía para la ciudad.</h1>
@@ -271,123 +165,180 @@
 						    <a href="http://www.behance.net/gallery/Personal-Identity/7913533" class="link blueish">Ver un ejemplo.</a>
 						    <br/>
 						    <br/>
-						    <a class="btn btn-large" href="javascript:void(0)" id="twelve">Generar una idea </a>
+						    <a class="btn btn-large btn-info" href="javascript:void(0)" id="twelve">Dame otra idea</a>
 					</div>
-				
 			<br/>
 		</div>
 	</div>
 </div>
-
-
-<!--
-<a href="http://www.good.is/posts/can-a-font-help-a-city-make-a-comeback">
-	Haz una tipografía para la ciudad.
-</a>  
--->
-
-<!--
-<a href="http://www.streetartutopia.com/">
-	Empieza tu blog de fotografía. 
-</a>
--->
-
-<!--
-<a href="https://vimeo.com/11918221">
-	Crea un stop-motion.
-</a>
--->
-
-<!---
-<a href="http://coryschmitz.com/ ">
-	Termina tu portafolio en línea.
-</a>
--->
-
-<!--
-<a href="http://www.flickr.com/photos/fanzinepaper/">
-	Haz un fanzine.
-</a>
--->
-
-<!--
-<a href="http://www.krobarch.com/winners.asp?winner_year=2012">
-	Termina ese diseño para el concurso que viste.
-</a>
--->
-
-<!--
-<a href="https://vimeo.com/38796545">
-	Aprende a usar un Arduino.
-</a>
--->
-
-<!--
-<a href="http://www.retrothing.com/2010/06/original-pacman-design-sketches.html ">
-	Comienza a dibujar el videojuego que quieres hacer.
-</a>
--->
-
-
-<!--
-<a href="https://vimeo.com/62092214">
-	Escribe el guión para tu primer cortometraje.
-</a>
--->
-
-<!--
-<a href="http://www.behance.net/gallery/A-Bit-Lost/618897">
-	Inicia ilustrando la portada de un libro.
-</a>
--->
-
-<!--
-<a href="http://abaddoncomic.com/page-1/#comments">
-	Haz un webcomic.
-</a>
--->
-
-<!--
-<a href="http://www.behance.net/gallery/Personal-Identity/7913533 ">
-	Crea tu identidad personal
-</a>
--->
-
-<div id="como">
-	<div class="container">
-		<div class="row-fluid">
-			<div class="title">	
-				<h1>¿Cual es la dinámica?</h1>
-			</div>
-			<br/>
-			<br/>
-			<div class="offset2">
-				<div class="itinerario">
-					<h2>Itinerario</h2>
-				</div>
-				<br/>
-				<h4>
-					<div class="itinerario2">		
-							<p>10:00am - 11:00am Registro y Networking </p>
-							<p>11:00am - 11:30am Presenta tu proyecto </p>
-							<p>11:30am - 1:30pm Empieza a crear </p>
-							<p>1:30pm - 2:30pm Hora de comida </p>
-							<p>2:30pm - 8:00pm Sigue creando </p>
-					</div>
-						<br/>
-						<br/>
-						<div class="itinerario">
-							<i><h2>*Talleres opcionales</h2></i>
-						</div>
-						<br/>
-						<div class="itinerario2">
-							<p>3:00pm - 3:30pm Ilustración Digital </p>
-							<p>4:30pm - 5:30pm Speed Arduino </p>
-							<p>6:30pm - 7:00pm Música</p>
-						</div>
-				</h4>
+<!-- This is not longer on the landing page
+	<div id="porque">
+		<div class="container">
+			<div class="row-fluid">
+				<p>
+					<u>FLOW</u> <i>es un día para juntar a la escena de creadores en Monterrey, para compartir ideas y empezar a generar comunidad.</i>
+				</p>
 			</div>
 		</div>
+	</div>
+-->
+<div class=" subtledots">
+	<div id="actividades">
+			<div class="align-center">
+				<div class="title">
+					<h1>Actividades</h1>
+					<br/>
+					<br/>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row-fluid">
+					<div class="span4">
+						<%= image_tag 'actividadestaller.png' %>
+						<br/>
+						<br/>
+						<h1>Mini-Talleres</h1>
+						<p>
+						 <h3>Aprende una habilidad específica de alguien que sabe.</h3>
+						</p>
+					</div>
+					<div class="span4">
+						<%= image_tag 'actividadesmano.png' %>
+						<br/>
+						<br/>
+						<h1>"Making" Time</h1>
+						<p>
+						 <h3>Lo mas importante es sentarse y terminar tu proyecto.</h3>
+						</p>
+					</div>
+					<div class="span4">
+						<%= image_tag 'actividadesfoco.png' %>
+						<br/>
+						<br/>
+						<h1>Speedtalks</h1>
+						<p>
+						 <h3>Rápidamente, todos presentan su idea y los avances al final del día. </h3>
+						</p>
+					</div>
+				</div>
+			</div>
+	</div>
+</div>
+<div id="talleres">
+	<div class="container">
+		<div class="row">
+			<div class="title">
+				<h1>Mini-Talleres</h1>
+			</div>
+			<br/>
+			<br/>
+			<div class="span4">
+				<%= image_tag 'ilustracion.jpg' %>
+				<br/>
+				<br/>
+				<h3>Ilustración Digital </h3>
+				<p>Próximamente más información.</p>
+			</div>
+			<div class="span4">
+				<%= image_tag 'arduino.jpg' %>
+				<br/>
+				<br/>
+				<h3>Speed Arduino </h3>
+				<p>Próximamente más información.</p>
+			</div>
+			<div class="span4">
+				<%= image_tag 'musica.jpg' %>
+				<br/>
+				<br/>
+				<h3>Música <i>Experimental</i> </h3>
+				<p>Próximamente más información.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!--
+	<div id="como">
+		<div class="container">
+			<div class="row-fluid">
+				<div class="title">	
+					<h1>¿Cual es la dinámica?</h1>
+				</div>
+				<br/>
+				<br/>
+				<div class="offset2">
+					<div class="itinerario">
+						<h2>Itinerario</h2>
+					</div>
+					<br/>
+					<h4>
+						<div class="itinerario2">		
+								<p>10:00am - 11:00am Registro y Networking </p>
+								<p>11:00am - 11:30am Presenta tu proyecto </p>
+								<p>11:30am - 1:30pm Empieza a crear </p>
+								<p>1:30pm - 2:30pm Hora de comida </p>
+								<p>2:30pm - 8:00pm Sigue creando </p>
+						</div>
+							<br/>
+							<br/>
+							<div class="itinerario">
+								<i><h2>*Talleres opcionales</h2></i>
+							</div>
+							<br/>
+							<div class="itinerario2">
+								<p>3:00pm - 3:30pm Ilustración Digital </p>
+								<p>4:30pm - 5:30pm Speed Arduino </p>
+								<p>6:30pm - 7:00pm Música</p>
+							</div>
+					</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+-->
+<div class="container">
+	<div class="ademas">
+		<p>
+			<center>
+				<h2>Ademas, aprende con talleres prácticos que ayudarán a inmersarte en las disciplinas que siempre habías querido experimentar.</h2>
+			</center>
+		</p>
+	</div>
+</div>
+
+<div class="container">
+	<div class="hackmixmake">
+		IMAGEN
+	</div>
+</div>
+
+<div class="sabado">
+	<p>
+		<center>
+			<h2>Ademas ¿tienes algo mejor que hacer el sábado?</h2>
+			<p>
+				<div class="btn btn-large disabled">
+					Sí, quiero ver Breaking Bad
+				</div>
+				<div class="btn btn-large btn-primary">
+					Nah, dame FLOW!
+				</div>
+			</p>
+		</center>
+	</p>
+</div>
+
+<div class="container">
+	<div class="moreinfo">
+			<p>
+				<center>
+					<h2>FLOW es hecho por gente como tú que cree en el valor de la comunidad de makers: los creadores de la ciudad.</h2>
+				</center>
+			</p>
+			<p>
+				<center>
+					<h3>Si tienes alguna idea o quieres ayudar a organizar el siguiente FLOW, ponte en contacto con nosotros.</h3>
+				</center>
+			</p>
 	</div>
 </div>
 

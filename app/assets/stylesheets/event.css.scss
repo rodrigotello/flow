@@ -9,7 +9,7 @@ $lightgray: #E6E6E6;
 $lightestgray: #F2F2F2;
 
 #commingsoon {
-	color: gray;
+	color: white;
 	text-align: center;
 	font-size: 32px;
 	margin: 120px 80px 0px 80px;
@@ -17,7 +17,7 @@ $lightestgray: #F2F2F2;
 }
 #mainbanner {
 	box-shadow: 0px 0px 15px 0px $blueish;
-	color: gray;
+	color: white;
 	text-align: center;
 	font-size: 36px;
 	margin: 0px 0px 0px 0px;
@@ -37,6 +37,7 @@ $lightestgray: #F2F2F2;
 	background-image: url('subtle_dots.png');
 }
 
+
 #flowbg{
 	background-image:url('linesbackground.png');
 	width: 100%;
@@ -47,7 +48,7 @@ $lightestgray: #F2F2F2;
 {
 	font-family:Garamond, Georgia, serif;
 	font-size: 52px;
-	color: gray;
+	color: white;
 	margin-top: 82px;
 	margin-bottom: 0px;
 }
@@ -101,7 +102,7 @@ $lightestgray: #F2F2F2;
 
 #ejemplos{
 	color: #fff;
-	background: $greenflow;
+	background: coral;
 	text-align: center;
 	padding: 200px;
 	margin: 0px 0px 50px 0px;
@@ -156,7 +157,17 @@ $lightestgray: #F2F2F2;
 	border:2px solid $lightgray;
 }
 
+#translucentbanner{
+	background-size: $blueish;
+	z-index: -1;
+	padding: 10px;
+	margin: 0 auto;
+}
 
+.sabado {
+	margin: 100px 0 100px 0;
+	padding: 20px;
+}
 /* The slider of Lentes */
 
 
@@ -168,10 +179,11 @@ $lightestgray: #F2F2F2;
 	opacity: 0 !important;
 }
 
-a.rosaranja{
-	color: $rosaranja;
-}
-
 a.blueish{
 	color: $blueish;
+}
+
+.albertoyrodrigo {
+	margin:70px 0 70px 0;
+	color: DarkTurquoise;
 }
