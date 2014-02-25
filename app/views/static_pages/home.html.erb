@@ -1,65 +1,92 @@
-<% provide(:title, 'Flow') %>
+<% provide(:title, 'F L O W') %>
 
 </div>
 <div class="armata">
 <div id="mainbanner">
 	<div id="flowbg">
-		<%= image_tag 'flowlogo.png' %>
-		<div id="makersday">
+		<div id="mbcontent">
+			<%= image_tag 'flowlogo.png' %>
+			<div class="makersday">
+				<p>
+					<br/>
+					The <i>Makers Get-Shit-Done</i> Day
+				</p>
+			</div>
 			<p>
-				The <i>Makers Get-Shit-Done</i> Day
+				<strong>Ven y termina tu proyecto creativo en 10 horas.</strong>
+					<p>
+					<%= link_to '¡Genial! Quiero ir', 'http://flow.boletia.com', target: "_blank", class: 'btn btn-large btn-danger' %>
+					</p>
 			</p>
 		</div>
-		<p>
-		<strong>Ven y termina tu proyecto creativo en 10 horas.</strong>
-		</p>
-		<p>
-			<div id="translucentbanner">
-				Próximo Evento: 3 de marzo - Monterrey, NL
-			</div>
-		</p>
-		<p>
-			<div class="container">
-				<div class="row-fluid">
-					<% link_to '¡Genial! Quiero ir', 'http://flow.boletia.com', target: "_blank", class: 'btn btn-large' %>
-					<!-- Begin MailChimp Signup Form -->
-							<div class="offset3 span6">
-								<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-								<style type="text/css">
-									#mc_embed_signup{background:transparent; clear:left; font:14px 'Armata', Helvetica,Arial,sans-serif; }
-									/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-									   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-								</style>
-								<div id="mc_embed_signup">
-									<form action="http://rodrigotello.us7.list-manage.com/subscribe/post?u=5bde610d99628e23dfe04cf14&amp;id=cd3f5b2b2c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>					
-										<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Si quieres saber más, deja tu correo" required>
-									    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-									    <div style="position: absolute; left: -5000px;">
-									    	<input type="text" name="b_5bde610d99628e23dfe04cf14_cd3f5b2b2c" value="">
-									    </div>
-										<div class="clear">
-											<input type="submit" value="Informarme cuando esté listo" name="subscribe" id="mc-embedded-subscribe" class="btn btn-large btn-important">
-										</div>
-									</form>
-								</div>
-							</div>
-
-					<!--End mc_embed_signup-->
-				</div>
-			</div>
-		</p>
 	</div>
 </div>
-<div class="container">
-	<div id="que">
+<div class="date">
+	<center>
+		<h2>Próximo Evento: 8 de marzo - LCI, Monterrey, NL</h2>
+	</center>
+</div>
+<div class="bluebar">
+	<center>
+		<div class="littleline"></div>
+		<h2>Proverbio chino: "Nadie te va a recordar por tus ideas".</h2>
+		<div class="littleline"></div>
+	</center>
+</div>
+<div id="que">
+	<div class="container">
 		<div class="row-fluid">
 			<div class="span12">
 				<br/>
 				<p>
 					 <center>
-					 	<h2>FLOW es un un <strong>evento</strong> de un día dedicado a terminar tus proyectos personales junto a la <strong>comunidad de creativos</strong> en <i>Monterrey</i>: una animación, un cuento, un cómic, un cortometraje, un mix, un póster, tu portafolio, lo que sea.</h2>
+					 	<div class="textbox">
+							<h2>FLOW es un un <strong>evento</strong> de un día dedicado a terminar tus proyectos personales junto a la <strong>comunidad de creativos</strong> en <i>Monterrey</i>: una animación, un cuento, un cómic, un cortometraje, un mix, un póster, tu portafolio, lo que sea.</h2>
+						</div>
 					</center>
 				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="workshop">
+	<div class="container">
+		<div class="textbox">
+			<p>
+				<center>
+					<div class="bigtypo">
+						<strong>WORKSHOPS</strong>
+					</div>
+					<h2>Sé parte del aprendizaje colectivo. Asiste a talleres prácticos e intercambia conocimiento con otros creadores de la ciudad.</h2>
+				</center>
+			</p>
+		</div>
+	</div>
+</div>
+<div class="network">
+	<div class="textbox3">
+		<p>
+			<center>
+				<div class="bigtypo">
+					<strong>NETWORK</strong>
+				</div>
+				<h2>Conecta con los makers locales. Profesionistas y estudiantes multidisciplinarios son parte de un evento único que incentiva la creación y el diálogo continuo.</h2>
+			</center>
+		</p>
+	</div>
+</div>
+<div class="making">
+	<div id="makingbg">
+		<div class="container">
+			<div class="textbox2">
+				<p>
+					<center>
+						<div class="bigtypo">
+							<strong>MAKING</strong>
+						</div>
+						<h2>Da el primer paos hacia tu gran idea. No importa si eres diseñador, artista, programador o un simple mortal con ganas de crear, este es el día para empezar.
+						</h2>
+					</center>
 			</div>
 		</div>
 	</div>
@@ -67,9 +94,9 @@
 <div id="ejemplos">
 	<div class="container">
 		<div class="row-fluid">
-			<div class="bigtypo">
+			<h2>
 			  ¿Qué demonios puedo hacer en 10 horas?
-			</div>
+			</h2>
 			<br/>
 					<div class="idea" id="idea-1">
 	    				
@@ -77,7 +104,7 @@
 						    <a href="http://www.good.is/posts/can-a-font-help-a-city-make-a-comeback" class="link blueish">Ver un ejemplo.</a>
 						    <br/>
 						    <br/>
-						    <a class="btn btn-large " href="javascript:void(0)" id="one">Generar una idea </a>
+						    <a class="btn btn-large" href="javascript:void(0)" id="one">¿Podrías darme una idea?</a>
 					</div>
 
 					<div class="idea hide" id="idea-2">
@@ -85,7 +112,7 @@
 						    <a href="http://www.streetartutopia.com/" class="link blueish">Ver un ejemplo.</a>
 						    <br/>
 						    <br/>
-						    <a class="btn btn-large" href="javascript:void(0)" id="two">Generar una idea </a>
+						    <a class="btn btn-large" href="javascript:void(0)" id="two">Interesante... ¿Qué más?</a>
 					</div>
 
 					<div class="idea hide" id="idea-3">
@@ -93,7 +120,7 @@
 						    <a href="https://vimeo.com/11918221" class="link blueish">Ver un ejemplo.</a>
 						    <br/>
 						    <br/>
-						    <a class="btn btn-large" href="javascript:void(0)" id="three">Generar una idea </a>
+						    <a class="btn btn-large" href="javascript:void(0)" id="three">¿Alguna otra idea?</a>
 					</div>
 
 					<div class="idea hide" id="idea-4">
@@ -101,7 +128,7 @@
 						    <a href="http://coryschmitz.com/" class="link blueish">Ver un ejemplo.</a>
 						    <br/>
 						    <br/>
-						    <a class="btn btn-large" href="javascript:void(0)" id="four">Generar una idea </a>
+						    <a class="btn btn-large" href="javascript:void(0)" id="four">¿Alguna otra idea?</a>
 					</div>
 
 					<div class="idea hide" id="idea-5">
@@ -109,7 +136,7 @@
 						    <a href="http://www.flickr.com/photos/fanzinepaper/" class="link blueish">Ver un ejemplo.</a>
 						    <br/>
 						    <br/>
-						    <a class="btn btn-large" href="javascript:void(0)" id="five">Generar una idea </a>
+						    <a class="btn btn-large" href="javascript:void(0)" id="five">¿Alguna otra idea?</a>
 					</div>
 
 					<div class="idea hide" id="idea-6">
@@ -117,7 +144,7 @@
 						    <a href="http://www.krobarch.com/winners.asp?winner_year=2012" class="link blueish">Ver un ejemplo.</a>
 						    <br/>
 						    <br/>
-						    <a class="btn btn-large" href="javascript:void(0)" id="six">Generar una idea </a>
+						    <a class="btn btn-large" href="javascript:void(0)" id="six">¿Alguna otra idea?</a>
 					</div>
 
 					<div class="idea hide" id="idea-7">
@@ -125,7 +152,7 @@
 						    <a href="https://vimeo.com/38796545" class="link blueish">Ver un ejemplo.</a>
 						    <br/>
 						    <br/>
-						    <a class="btn btn-large" href="javascript:void(0)" id="seven">Generar una idea </a>
+						    <a class="btn btn-large" href="javascript:void(0)" id="seven">¿Alguna otra idea?</a>
 					</div>
 
 					<div class="idea hide" id="idea-8">
@@ -133,7 +160,7 @@
 						    <a href="http://www.retrothing.com/2010/06/original-pacman-design-sketches.html" class="link blueish">Ver un ejemplo.</a>
 						    <br/>
 						    <br/>
-						    <a class="btn btn-large" href="javascript:void(0)" id="eight">Generar una idea </a>
+						    <a class="btn btn-large" href="javascript:void(0)" id="eight">¿Alguna otra idea?</a>
 					</div>
 
 					<div class="idea hide" id="idea-9">
@@ -141,7 +168,7 @@
 						    <a href="https://vimeo.com/62092214" class="link blueish">Ver un ejemplo.</a>
 						    <br/>
 						    <br/>
-						    <a class="btn btn-large" href="javascript:void(0)" id="nine">Generar una idea </a>
+						    <a class="btn btn-large" href="javascript:void(0)" id="nine">¿Alguna otra idea?</a>
 					</div>
 
 					<div class="idea hide" id="idea-10">
@@ -149,7 +176,7 @@
 						    <a href="http://www.behance.net/gallery/A-Bit-Lost/618897" class="link blueish">Ver un ejemplo.</a>
 						    <br/>
 						    <br/>
-						    <a class="btn btn-large" href="javascript:void(0)" id="ten">Generar una idea </a>
+						    <a class="btn btn-large" href="javascript:void(0)" id="ten">¿Alguna otra idea?</a>
 					</div>
 
 					<div class="idea hide" id="idea-11">
@@ -157,7 +184,7 @@
 						    <a href="http://abaddoncomic.com/page-1/#comments" class="link blueish">Ver un ejemplo.</a>
 						    <br/>
 						    <br/>
-						    <a class="btn btn-large" href="javascript:void(0)" id="eleven">Generar una idea </a>
+						    <a class="btn btn-large" href="javascript:void(0)" id="eleven">¿Qué más?</a>
 					</div>
 
 					<div class="idea hide" id="idea-12">
@@ -165,153 +192,13 @@
 						    <a href="http://www.behance.net/gallery/Personal-Identity/7913533" class="link blueish">Ver un ejemplo.</a>
 						    <br/>
 						    <br/>
-						    <a class="btn btn-large btn-info" href="javascript:void(0)" id="twelve">Dame otra idea</a>
+						    <a class="btn btn-large" href="javascript:void(0)" id="twelve">Dame otra idea</a>
 					</div>
 			<br/>
 		</div>
 	</div>
 </div>
-<!-- This is not longer on the landing page
-	<div id="porque">
-		<div class="container">
-			<div class="row-fluid">
-				<p>
-					<u>FLOW</u> <i>es un día para juntar a la escena de creadores en Monterrey, para compartir ideas y empezar a generar comunidad.</i>
-				</p>
-			</div>
-		</div>
-	</div>
--->
-<div class=" subtledots">
-	<div id="actividades">
-			<div class="align-center">
-				<div class="title">
-					<h1>Actividades</h1>
-					<br/>
-					<br/>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row-fluid">
-					<div class="span4">
-						<%= image_tag 'actividadestaller.png' %>
-						<br/>
-						<br/>
-						<h1>Mini-Talleres</h1>
-						<p>
-						 <h3>Aprende una habilidad específica de alguien que sabe.</h3>
-						</p>
-					</div>
-					<div class="span4">
-						<%= image_tag 'actividadesmano.png' %>
-						<br/>
-						<br/>
-						<h1>"Making" Time</h1>
-						<p>
-						 <h3>Lo mas importante es sentarse y terminar tu proyecto.</h3>
-						</p>
-					</div>
-					<div class="span4">
-						<%= image_tag 'actividadesfoco.png' %>
-						<br/>
-						<br/>
-						<h1>Speedtalks</h1>
-						<p>
-						 <h3>Rápidamente, todos presentan su idea y los avances al final del día. </h3>
-						</p>
-					</div>
-				</div>
-			</div>
-	</div>
-</div>
-<div id="talleres">
-	<div class="container">
-		<div class="row">
-			<div class="title">
-				<h1>Mini-Talleres</h1>
-			</div>
-			<br/>
-			<br/>
-			<div class="span4">
-				<%= image_tag 'ilustracion.jpg' %>
-				<br/>
-				<br/>
-				<h3>Ilustración Digital </h3>
-				<p>Próximamente más información.</p>
-			</div>
-			<div class="span4">
-				<%= image_tag 'arduino.jpg' %>
-				<br/>
-				<br/>
-				<h3>Speed Arduino </h3>
-				<p>Próximamente más información.</p>
-			</div>
-			<div class="span4">
-				<%= image_tag 'musica.jpg' %>
-				<br/>
-				<br/>
-				<h3>Música <i>Experimental</i> </h3>
-				<p>Próximamente más información.</p>
-			</div>
-		</div>
-	</div>
-</div>
-<!--
-	<div id="como">
-		<div class="container">
-			<div class="row-fluid">
-				<div class="title">	
-					<h1>¿Cual es la dinámica?</h1>
-				</div>
-				<br/>
-				<br/>
-				<div class="offset2">
-					<div class="itinerario">
-						<h2>Itinerario</h2>
-					</div>
-					<br/>
-					<h4>
-						<div class="itinerario2">		
-								<p>10:00am - 11:00am Registro y Networking </p>
-								<p>11:00am - 11:30am Presenta tu proyecto </p>
-								<p>11:30am - 1:30pm Empieza a crear </p>
-								<p>1:30pm - 2:30pm Hora de comida </p>
-								<p>2:30pm - 8:00pm Sigue creando </p>
-						</div>
-							<br/>
-							<br/>
-							<div class="itinerario">
-								<i><h2>*Talleres opcionales</h2></i>
-							</div>
-							<br/>
-							<div class="itinerario2">
-								<p>3:00pm - 3:30pm Ilustración Digital </p>
-								<p>4:30pm - 5:30pm Speed Arduino </p>
-								<p>6:30pm - 7:00pm Música</p>
-							</div>
-					</h4>
-				</div>
-			</div>
-		</div>
-	</div>
--->
-<div class="container">
-	<div class="ademas">
-		<p>
-			<center>
-				<h2>Ademas, aprende con talleres prácticos que ayudarán a inmersarte en las disciplinas que siempre habías querido experimentar.</h2>
-			</center>
-		</p>
-	</div>
-</div>
-
-<div class="container">
-	<div class="hackmixmake">
-		IMAGEN
-	</div>
-</div>
-
-<div class="sabado">
+<div class="sabado subtledots">
 	<p>
 		<center>
 			<h2>Ademas ¿tienes algo mejor que hacer el sábado?</h2>
@@ -319,57 +206,43 @@
 				<div class="btn btn-large disabled">
 					Sí, quiero ver Breaking Bad
 				</div>
-				<div class="btn btn-large btn-primary">
-					Nah, dame FLOW!
-				</div>
+				<%= link_to 'Nah, dame FLOW!', 'http://flow.boletia.com', target: "_blank", class: 'btn btn-large btn-info' %>
 			</p>
 		</center>
 	</p>
 </div>
-
-<div class="container">
-	<div class="moreinfo">
-			<p>
+<div id="moreinfo">
+	<p>
+		<div class="textbox2">
+			<div class="container">
 				<center>
 					<h2>FLOW es hecho por gente como tú que cree en el valor de la comunidad de makers: los creadores de la ciudad.</h2>
+					<p>
+						<h3>Si tienes alguna idea o quieres ayudar a organizar el siguiente FLOW, ponte en contacto con nosotros.</h3>
+					</p>
+					<p>
+						<h2>alberto@funkalab.com y rodrigo@funkalab.com</h2>
+					</p>
+					<p>
+						<%= link_to '!Quiero ir a Flow!', 'http://flow.boletia.com', target: "_blank", class: 'btn btn-large btn-danger' %>
+					</p>
+					</p>
 				</center>
-			</p>
-			<p>
-				<center>
-					<h3>Si tienes alguna idea o quieres ayudar a organizar el siguiente FLOW, ponte en contacto con nosotros.</h3>
-				</center>
-			</p>
-	</div>
+			</div>
+		</div>
+	</p>
 </div>
-
 <div id="info">
 	<div class="container">
 		<div class="row-fluid">
 			<div class="span4">
-				<h1>Lugar</h1>
-				<h3>
-					<p>
-					 Innovaction Gym
-					</p>
-					<p>
-					 (Tec de Monterrey)
-					</p>
-				</h3>
+				<h3><a href="facebook.com/funkalab">facebook</a></h3>
 			</div>
 			<div class="span4">
-				<h1>Fecha</h1>
-				<h3>
-				 <p> 14 de Septiembre </p>
-				 <p> 9 am. a 9 pm. </p>
-				</h3>
+				<h3><a href="twitter.com/funkalab">twitter</a></h3>
 			</div>
 			<div class="span4">
-				<h1>Contacto</h1>
-				<h3>
-				 <p> Facebook: facebook.com/funkalab </p>
-				 <p> Twitter: @funkalab.com </p>
-				 <p> Correo: hello@funkalab.com </p>
-				</h3>
+				<h3>hello@funkalab.com</h3>
 			</div>
 		</div>
 	</div>

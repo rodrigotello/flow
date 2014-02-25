@@ -1,35 +1,41 @@
 /* style.scss */
 $blueish: #286989;
-$greenflow: #1FE5C4;
-$mintflow: #B8E5C4;
+$greenflow: #1FE5C4; /*El color de abajo del mainbanner */
+$mintflow: #B8E5C4; /*El color de arriba del mainbanner*/
 $rosaranja: #FF7372;
 $orangeflow: #FF4F45;
 $mustardflow: #F0CC47;
 $lightgray: #E6E6E6;
 $lightestgray: #F2F2F2;
+$newgreen: #A1FFE1;
+$newblue: #25AAD7;
 
-#commingsoon {
-	color: white;
-	text-align: center;
-	font-size: 32px;
-	margin: 120px 80px 0px 80px;
-	padding: 150px 20px 0px 20px;
-}
 #mainbanner {
 	box-shadow: 0px 0px 15px 0px $blueish;
 	color: white;
 	text-align: center;
 	font-size: 36px;
 	margin: 0px 0px 0px 0px;
-	padding: 150px 0px 0px 0px;
-	background: $mintflow; /* Old browsers */
-	background: -moz-linear-gradient(top,  $mintflow 0%, $greenflow 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$mintflow), color-stop(100%,$greenflow)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  $mintflow 0%,$greenflow 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  $mintflow 0%,$greenflow 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  $mintflow 0%,$greenflow 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  $mintflow 0%,$greenflow 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$mintflow', endColorstr='$greenflow',GradientType=0 ); /* IE6-9 */
+	padding: 0px 0px 0px 0px;
+	height: 820px;
+	background: $newgreen; /* Old browsers */
+	background: -moz-linear-gradient(top,  $newgreen 0%, $newblue 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$newgreen), color-stop(100%,$newblue)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  $newgreen 0%,$newblue 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  $newgreen 0%,$newblue 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  $newgreen 0%,$newblue 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  $newgreen 0%,$newblue 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$newgreen', endColorstr='$newblue',GradientType=0 ); /* IE6-9 */
+}
+
+#flowbg{
+	background-image:url('linesanddots.png');
+	max-width: 100%;
+	height: 100%;
+}
+
+#mbcontent{
+	padding: 240px 0 0 0;
 }
 
 .subtledots
@@ -37,25 +43,70 @@ $lightestgray: #F2F2F2;
 	background-image: url('subtle_dots.png');
 }
 
-
-#flowbg{
-	background-image:url('linesbackground.png');
+.workshop {
+	background-image:url('workshops.png');
+	height: 1093px;
 	width: 100%;
-	height: 620px;
+	color: white;
 }
 
-#makersday
-{
+.textbox {
+	margin: 0 0 0 0;
+	padding: 700px 0 0 0;
+}
+
+.textbox2 {
+	padding: 240px 0 200px 0;
+	margin: 0 auto;
+}
+
+.textbox3 {
+	padding: 450px;
+}
+
+.network {
+	background-image:url('poliedros1.png');
+	width: 100%;
+	height: 1185px;
+}
+
+.making {
+	background: $blueish;
+	color: white;
+	max-height: 960px;
+}
+
+#makingbg {
+	background-image:url('poliedros2.png');
+	width: 100%;
+	height: 1500px 100%;
+
+}
+
+#moreinfo {
+	background-image:url('herramientas.png');
+	color: $blueish;
+	width: 100%;
+	height: 702px;
+}
+
+.DarkTurquoise{
+	color: DarkTurqoise;;
+}
+
+.makersday {
 	font-family:Garamond, Georgia, serif;
 	font-size: 52px;
 	color: white;
-	margin-top: 82px;
-	margin-bottom: 0px;
+	margin-top: 82px 0 0 0;
 }
 
-#que{
-	margin: 50px 0px 100px 0px;
-	padding: 100px 0px 100px 0px;
+#que {
+	background-image:url('verdeazul.png');
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	height: 1350px;
+	max-width: 100%;
 }
 
 #porque {
@@ -94,24 +145,41 @@ $lightestgray: #F2F2F2;
 }*/
 
 #info {
-	background: #333;
+	background: $blueish;
+	color: #fff;
+	margin: 0;
+	padding: 80px 0 80px 0;
+	text-transform: none;
+	font-style: none;
+}
+
+#info a{
+	background: $blueish;
 	color: #fff;
 	margin: 0px 0px 0px 0px;
-	padding: 200px 0px 200px 0px;
+	padding: 0;
+	text-transform: none;
+	font-style: none;
 }
 
 #ejemplos{
 	color: #fff;
-	background: coral;
+	background: $newblue;
 	text-align: center;
 	padding: 200px;
-	margin: 0px 0px 50px 0px;
+	margin: 0 0 0 0;
 	box-shadow: 0px 0px 15px 0px #888888;
 }
 
 .title
 {
 	text-align: center;
+}
+
+.littleline {
+	border-top: 1px solid white;
+	width: 240px;
+	margin: 40px;
 }
 
 .garamond
@@ -165,8 +233,8 @@ $lightestgray: #F2F2F2;
 }
 
 .sabado {
-	margin: 100px 0 100px 0;
-	padding: 20px;
+	margin: 0 auto;
+	padding: 150px 0 150px 0;
 }
 /* The slider of Lentes */
 
@@ -186,4 +254,16 @@ a.blueish{
 .albertoyrodrigo {
 	margin:70px 0 70px 0;
 	color: DarkTurquoise;
+}
+
+.bluebar {
+	background: $blueish;
+	color: white;
+	padding: 180px 0 180px 0;
+	margin: 0 auto;
+}
+
+.date {
+	padding: 50px 0 50px 0;
+	color: DarkTurqoise;
 }
